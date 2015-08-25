@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2013, 11:12:40 PM
+    Author     : jazy
+*/
+
+
+.box_popup {
+    position: absolute;
+    z-index: 9;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-bottom: 10px;
+    width: 600px;
+    height: 300px;
+}
+.box_popup h2 {
+    padding: 0px;
+    background: #003f81;
+    color: #fff;
+    height: 25px;
+    margin-top: 0px;
+    padding-left: 10px;
+    font: bold 12px/24px arial;
+}
+
+a.closeme, a.closeme:hover {
+    background: #ff0000;
+    padding: 0px 8px;
+    color: #fff;
+    font: bold 14px arial;
+    display: inline-block;
+    float: right;
+    height: 25px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.box_popup header {
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    background: #fff;
+    height: 200px;padding-top: 85px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.8;
+}
+.box_popup article {
+    padding: 0px 0px 10px 0px;
+    height: 265px;
+    overflow-y: auto;
+}
+.table tr td {
+    line-height: 30px;
+}
+
+.overlay {
+    width: 100%;
+    position: absolute;
+    background: #000;
+    opacity: 0.8;
+    z-index: 5;
+    left: 0px;
+    top: 0px;
+}
